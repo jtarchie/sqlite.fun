@@ -37,4 +37,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 945954ae6af55e6e4af004fb7772fdc5
-          command: pages deploy --project-name=sqlite-fun
+          command: pages deploy --project-name=sqlite-fun ./build/
