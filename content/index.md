@@ -8,10 +8,11 @@ title: Welcome to Fun with SQLite
         <h1 class="text-5xl font-bold text-white mb-6">Join Fun with SQLite Mailing List</h1>
         <p class="text-xl text-white mb-6">Stay updated with our latest articles, information, how-tos, and more!</p>
         <div class="flex justify-center">
-            <form action="signup" method="GET" class="join">
-                <input type="email" name="email" placeholder="Enter your email" class="input input-bordered w-full max-w-xs p-2" />
-                <button class="btn btn-primary ml-4 p-2 bg-blue-500 hover:bg-blue-700 text-white font-bold">Sign Up</button>
-            </form>
+            <iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://buttondown.com/sqlite.fun?as_embed=true"
+></iframe>
         </div>
     </div>
 </section>
