@@ -3,10 +3,9 @@ version: '3'
 tasks:
   format:
     cmds:
-    - deno fmt content/ functions/
-    - deno lint content/ functions/
+    - deno fmt docs/ functions/
+    - deno lint docs/ functions/
   default:
     cmds:
     - task: format
-    - npm run build
-    - builder --source-path ./content --build-path build/ --base-url https://sqlite.fun
+    - mkdocs build

@@ -1,0 +1,37 @@
+site_name: SQLite Fun
+site_url: https://sqlite.fun
+repo_url: https://github.com/jtarchie/sqlite.fun/
+repo_name: jtarchie/sqlite.fun
+edit_uri: blob/main/src
+theme:
+  name: material
+  features:
+  - content.action.edit
+  - content.code.copy
+  - content.code.annotate
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+docs_dir: docs/
+site_dir: build/
