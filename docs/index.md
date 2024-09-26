@@ -14,5 +14,6 @@ src="https://buttondown.com/sqlite.fun?as_embed=true"
 
 ## Recent Issues
 
+- [Using SQLite in production](issues/2024-09-26.md) released 2024-09-26
 - [Building, Compressing, and Auditing Your Databases](issues/2024-09-05.md) released 2024-09-05
 - [How SQLite Started](issues/2024-08-22.md) released 2024-08-22
